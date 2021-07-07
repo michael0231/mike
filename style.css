@@ -1,0 +1,101 @@
+*{
+margin: 0;
+padding: 0;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 40px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: -3px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: -3px;
+}
+
+.btr{
+    width: 80px;
+    border: 0;
+    padding: 6px 5px;
+    outline: none;
+    color: rgb(247, 248, 248);
+    background-color: rgb(0, 22, 29);
+    
+    cursor: pointer;
+    }
+
+.download{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    margin: 10px;
+    margin-left: 0;
+    float: left;
+    border-radius: 5px;
+
+}
+.download .ri{
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    color: #fff;
+}
+.download-from, .app-store{
+    position: absolute;
+    left: 50px;
+}
+.download-from{
+    font-size: 12px;
+    top: 6px;
+}
+.app-store{
+    top: 20px;
+    font-size: 16px;
+}
+.download:hover{
+    filter: invert(100%);
+     -webkit-filter: invert(100%);
+}
+.button{
+    border: 1px solid;
+    background-color: black;
+    height: -75px;
+}
+.drop{
+    background: linear-gradient(180deg, #f8f8f8 50%, #edd49d 50%);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 8px auto 5px;
+}
+.sm-box{
+    border: 0.5px solid black;
+}
+.pad{
+    padding-left: ;
+}
